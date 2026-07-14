@@ -11,7 +11,7 @@ function App() {
       document.documentElement.classList.remove('dark');
       localStorage.setItem('theme', 'light');
     }
-  }, [darkMode]);
+  }, [darkMode]); 
 
   return (
     <div className={`min-h-screen ${darkMode ? 'dark bg-zinc-950 text-white' : 'bg-zinc-50 text-zinc-900'}`}>
