@@ -5,7 +5,7 @@ function App() {
 
   useEffect(() => {
     if  (darkMode) {
-      document. documentElement.classList.add('dark');
+      document.documentElement.classList.add('dark');
       localStorage.setItem('theme', 'dark');
 
     } else {
