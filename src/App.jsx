@@ -12,7 +12,7 @@ function App() {
       document.documentElement.classList.remove('dark');
 
       localStorage.setItem('theme', 'light');
-      
+
 
     }
   }, [darkMode]); 
@@ -21,6 +21,7 @@ function App() {
     <div className={`min-h-screen ${darkMode ? 'dark bg-zinc-950 text-white' : 'bg-zinc-50 text-zinc-900'}`}>
       {/* Navbar */}
       <nav className="sticky top-0 z-50 bg-zinc-950/90 dark:bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800">
+      
         <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
           
           <div className="flex items-center gap-3">
