@@ -18,6 +18,7 @@ function App() {
   }, [darkMode]); 
 
   return (
+    huuuiiuiii
     <div className={`min-h-screen ${darkMode ? 'dark bg-zinc-950 text-white' : 'bg-zinc-50 text-zinc-900'}`}>
       {/* Navbar */}
       <nav className="sticky top-0 z-50 bg-zinc-950/90 dark:bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800">
