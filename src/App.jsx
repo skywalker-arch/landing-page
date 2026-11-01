@@ -12,8 +12,6 @@ function App() {
       document.documentElement.classList.remove('dark');
 
       localStorage.setItem('theme', 'light');
-
-
     }
   }, [darkMode]); 
 
@@ -28,6 +26,7 @@ function App() {
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 bg-orange-500 rounded-xl flex items-center justify-center text-white font-bold text-2xl">C</div>
             <span className="text-2xl font-semibold tracking-tighter">CITA TECH</span>
+            
           </div>
 
           <div className="flex items-center gap-6">
