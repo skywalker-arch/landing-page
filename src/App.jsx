@@ -9,15 +9,15 @@ function App() {
       localStorage.setItem('theme', 'dark');
 
     } else {
-      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.remove
+      ('dark');
 
       localStorage.setItem('theme', 'light');
       
     }
   }, [darkMode]); 
 
-  return (
-    huuuiiuiii
+  return
     <div className={`min-h-screen ${darkMode ? 'dark bg-zinc-950 text-white' : 'bg-zinc-50 text-zinc-900'}`}>
       {/* Navbar */}
       <nav className="sticky top-0 z-50 bg-zinc-950/90 dark:bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800">
